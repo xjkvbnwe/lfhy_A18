@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kdpkgs isv="ozwe">
+    <format ver="1.1"/>
+    <description>
+        <time>2023-04-05 19:40:47</time>
+        <content/>
+    </description>
+    
+    <product name="cosmic_cus_ozwe" nameCN="金蝶云苍穹(二开)" ver="4.0.024">
+        <app>
+            <name>ozwe_adminstatistics</name>
+            <ver>4.0.024</ver>
+            <appids>ozwe_adminstatistics</appids>
+            <dependon/>
+            <resource>94cc986a49</resource>
+        </app>
+    </product>
+    <kdpkg>
+        <ID>94cc986a49</ID>
+        <md5>def097ed5eff3eaf77aa2740f8677800</md5>
+        <name>ozwe_admin-ozwe_adminstatistics-dm.zip</name>
+        <type>dm</type>
+        <sourcePath>dm/</sourcePath>
+    </kdpkg>
+    <staticResource ver="4.0.024">
+        <resource/>
+    </staticResource>
+</kdpkgs>

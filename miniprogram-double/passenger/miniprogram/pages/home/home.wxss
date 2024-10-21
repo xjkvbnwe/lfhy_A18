@@ -1,0 +1,19 @@
+.wrap-item.exp{
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+.wrap-item{
+  display: inline-block;
+  width: 32.7vw;
+  height: auto; 
+  border-bottom: 1px solid #ddd; 
+  background-color: #fff; 
+  text-align: center;
+}
+.my-swiper image{
+  width: 100%;
+}
+.good_img{
+  height: 18vw;
+  width: 18vw;
+}

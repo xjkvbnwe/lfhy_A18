@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/mainPage/mainPage",
+    "pages/finish/finish",
+    "pages/home/home",
+    "pages/coupon/coupon",
+    "pages/huiyuan/huiyuan",
+    "pages/mine/mine",
+    "pages/dingdan/dingdan",
+    "pages/mine/agreement/agreement",
+    "pages/dingdan/orderInfo/orderInfo",
+    "pages/mine/edit/edit"
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FF8800",
+    "navigationBarTitleText": "随手买——无人售卖机",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#13227a",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/mainPage/mainPage",
+        "text": "首页",
+        "iconPath": "./images/mainpage1.png",
+        "selectedIconPath": "./images/mainpage2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人",
+        "iconPath": "./images/owner1.png",
+        "selectedIconPath": "./images/owner2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

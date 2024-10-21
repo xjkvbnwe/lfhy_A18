@@ -1,0 +1,27 @@
+<view class="orderDetails" style="margin-left: 2%; margin-right: 2%; margin-top: 3%; border-radius: 20px;">
+  <view class="orderListDetails" wx:for="{{data}}" wx:key="array1">
+    <view class="productImg">
+      <image src="{{item.goodsImg}}" background-size="cover"></image>
+    </view>
+    <view class="productInfo">
+      <view class="productTitle">{{item.goodsName}}</view>
+      <text class="productPrice" style="color: #ff6c09;">￥{{item.goodsPrice}}</text>
+    </view>
+  </view>
+  <view class="productCount">
+    <view>
+      <text style="color: #ff6c09;">实付款：￥{{buyAmount}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="orderDetails" style="margin-left: 2%; margin-right: 2%; margin-top: 3%; border-radius: 20px;">
+  <view style="padding-top: 1%;">
+    <view class="detail">订单号：{{order}} <text bindtap="clickCopy" style="margin-left: 5%;color: #fc883b;">复制</text></view>
+    <view class="detail">支付方式：{{type}}</view>
+    <view class="detail">付款时间：{{payDate}}</view>
+    <view class="detail">购买设备：{{machine}}</view>
+    <view class="detail">订单状态：{{state}}</view>
+    <view class="detail">车主ID：{{ownerId}}</view>
+  </view>
+</view>

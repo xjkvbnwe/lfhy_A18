@@ -1,0 +1,10 @@
+/* pages/mine/agreement/agreement.wxss */
+.title {
+  margin: 3%;
+  font-size: 50rpx;
+  font-weight: bolder;
+}
+
+.content {
+  margin: 3%;
+}

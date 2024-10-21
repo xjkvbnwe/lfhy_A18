@@ -1,0 +1,1 @@
+"D:\微信web开发者工具\cli.bat" cloud functions deploy --e xjkvbnwe-5g4tba0j92d4c844 --n quickstartFunctions --r --project "D:\项目作品\比赛项目\国赛\服务外包2022\车主端" --report_first --report

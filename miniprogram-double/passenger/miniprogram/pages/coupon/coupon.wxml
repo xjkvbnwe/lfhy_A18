@@ -1,0 +1,45 @@
+<!-- <view class="youhui">
+  <view class="youhui_title">
+    <view class="youhui_item active">已使用</view>
+    <view class="youhui_item">未使用</view>
+    <view class="youhui_item">已过期</view>
+  </view>
+</view> -->
+<view wx:for="{{couponList}}" wx:key="coupon">
+  <view class="coupon-box flex" wx:if="{{item.time == '未过期'}}">
+    <view class="cou-banner">{{item.time}}</view>
+    <view class="cou-left flex-row j_c">
+      <view>
+        <text>{{item.jian}}</text>
+        <text>元</text>
+      </view>
+    </view>
+    <view class="cou-right flex-row ">
+      <view>
+        <view style="font-weight: bold;">满 <text style="font-size: 45rpx; color: red;">{{item.man}}</text> 减 <text style="font-size: 45rpx; color: red;">{{item.jian}}</text> 优惠券</view>
+        <view class="cou-right-time" style="font-size: 26rpx;font-weight: bold;">到期时间：{{item.endDate}}</view>
+        <view style="font-size: 25rpx; color: rgb(163, 163, 163);">{{item.origin}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="coupon-box flex" wx:if="{{item.time == '已过期'}}">
+    <view class="cou-banner" style="color: rgb(114, 114, 114);;">{{item.time}}</view>
+    <view class="cou-left flex-row j_c">
+      <view style="color: rgb(114, 114, 114);">
+        <text>{{item.jian}}</text>
+        <text>元</text>
+      </view>
+    </view>
+    <view class="cou-right flex-row ">
+      <view wx:if="{{item.time == '已过期'}}">
+        <view style="font-weight: bold;">满 {{item.man}} 减 {{item.jian}} 优惠券</view>
+        <view class="cou-right-time" style="font-size: 25rpx;color: rgb(163, 163, 163);;">到期时间：{{item.endDate}}</view>
+        <view style="font-size: 25rpx; color: rgb(163, 163, 163);">{{item.origin}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="flex-column">
+  <text class="guide_no_txt" style="padding-top: 5%;">数据到底啦~</text>
+</view>

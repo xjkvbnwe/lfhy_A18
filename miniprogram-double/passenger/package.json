@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cncut": "^1.0.2",
+    "wl-pinyin": "^1.0.1"
+  }
+}

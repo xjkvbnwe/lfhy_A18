@@ -1,0 +1,28 @@
+<view style="display: flex;align-items: center;justify-content: center;">
+  <view class="container-index move-box" bindtap="scanCodeEvent">
+    <view class='goodbutton shake-box'>
+      <image class="topimg" src="{{img}}"></image>
+      <view style="padding-top: 10%;">扫码开锁</view>
+    </view>
+  </view>
+</view>
+
+<view hidden='{{showApplyReason}}'>
+  <view class='mask' bindtap="closeShow"></view>
+  <view class='dialog_reason dialog_pos' animation="{{animationData}}">
+    <view class='promise_title'>用户协议</view>
+    <image src='../../images/close1.png' class='layer_close' bindtap="closeShow"></image>
+    <scroll-view scroll-y="{{true}}" class="radio" scroll-into-view="{{viewId}}">
+      <text>第一条 经购销双方协商交易活动，必须履行本合同条款。具体品类 (种)，需签订要货成交单，并作为本购销合同的附件;本合同中的未尽事宜经双方协商需补充的条款可另附 协议书 ，亦视为合同附件。合同附件与本合同具有同等效力。经双方确认的往来信函、传真、电子邮件等，将作为本合同的组成部分，具有合同的效力。签订成交单，除上级规定按计划分配成交外，其余商品一律采取自由选购，看样成交的方式。
+        第二条 合同签订后，不得擅自变更和解除。如甲方遇不可抗拒的原因，确实无法履行合同;乙方因市场发生骤变或不能防止的原因，经双方协商同意后，可予变更或解除合同。但提出方应提前通知对方，并将合同变更通知单寄给对方，办理变更或解除合同的手续。按乙方指定花色、品种、规格生产的商品，在安排生产后，双方都需严格执行合同。如需变更，由此而产生的损失，乙方负担;如甲方不能按期、按质、按量按指定要求履行合同，其损失，甲方负担。
+        第三条 成交单中的商品价格，由双方当事人商议决定，或以国家定价决定。在签订合同时，确定价格有困难，可以暂定价格成交，上下幅度双方商定。国家定价的商品，在合同规定的交(提)货期限内，如遇国家或地方行政部门调整价格，按交货(指运出)时的价格执行。逾期交货的，如遇价格上调时，按原价执行;遇价格下调时，按新价执行。逾期提货的，遇价格上调时，按新价执行，遇价格下调时，按原价执行。由于调整价格而发生的差价，购销双方另行结算。
+        第四条 运输方式及运输费用等费用，由双方当事人协商决定。
+        第五条 各类商品质量标准，甲方严格执行合同规定的质量标准，保证商品质量。
+      </text>
+    </scroll-view>
+    <view class="button-panel2" style="margin-top: 8%;">
+      <view class="button2" hover-class="button-hover" bindtap="unlock">同意开锁
+      </view>
+    </view>
+  </view>
+</view>

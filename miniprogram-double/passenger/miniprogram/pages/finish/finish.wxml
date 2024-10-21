@@ -1,0 +1,8 @@
+<view class="view-container">
+  <image style="height: 8vh;width: 8vh;" src="../../images/right.png"></image>
+  <view style="padding-top: 10%; font-size: large; font-weight: bold;">购买成功，已生成订单</view>
+  <view class="button-panel2">
+    <view class="button2" hover-class="button-hover" bindtap="backToMainPage">返回首页
+    </view>
+  </view>
+</view>

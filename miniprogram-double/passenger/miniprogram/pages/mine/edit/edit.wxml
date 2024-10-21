@@ -1,0 +1,25 @@
+<view class='item' hover-class="hover" bindtap="themeChoose">
+	<view class="title">自动扣款</view>
+	<view class="detail2">
+		<text>></text>
+	</view>
+</view>
+<view class="line"></view>
+<view class='item' hover-class="hover" bindtap="welfareControl">
+	<view class="title">自动使用优惠券</view>
+	<view class="detail2">
+		<text> ></text>
+	</view>
+</view>
+<view class="line"></view>
+<view class="item" hover-class="hover" bindtap="mainPageControl">
+	<view class="title">显示过期优惠券</view>
+	<view class="detail2">
+		<text> ></text>
+	</view>
+</view>
+<view class="line"></view>
+<view class="item" hover-class="hover" bindtap="quickServer">
+	<view class="title">联系客服</view>
+</view>
+<view class="hr"></view>

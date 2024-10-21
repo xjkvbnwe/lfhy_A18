@@ -1,0 +1,45 @@
+<view>
+	<!-- 第1部分 -->
+	<view class='top-container'>
+		<image class='bg-img' src="../../images/bg1.png"></image>
+	</view>
+	<!-- 第2部分 -->
+	<view class='middle-container'>
+		<view class="view_2">
+			<navigator class="view_tupianwenzi" url="../coupon/coupon">
+				<image class="image_tupian" src="../../images/yhq.png"></image>
+				<text class="text_1">优惠券</text>
+			</navigator>
+			<navigator class="view_tupianwenzi" url="../dingdan/dingdan">
+				<image class="image_tupian" src="../../images/dd1.png"></image>
+				<text class="text_1">订单</text>
+			</navigator>
+			<navigator class="view_tupianwenzi" url="../huiyuan/huiyuan">
+				<image class="image_tupian" src="../../images/hy.png"></image>
+				<text class="text_1">会员</text>
+			</navigator>
+		</view>
+
+	</view>
+
+	<view class='container_4'>
+		<view class='middle-item' bindtap="agreement" hover-stay-time="150">
+			<image class="image_tupian_1" src="../../images/xieyi.png"></image>
+			<text class='text_2'>注册协议</text>
+		</view>
+
+		<view class="view_line"></view>
+
+		<view class='middle-item' bindtap="userEdit" hover-class="opcity" hover-stay-time="150">
+			<image class="image_tupian_1" src="../../images/geren.png"></image>
+			<text class='text_2'>个人设置</text>
+		</view>
+
+		<view class="view_line"></view>
+
+		<view class='middle-item' bindtap="showAction" hover-class="opcity" hover-stay-time="150">
+			<image class="image_tupian_1" src="../../images/kehu.png"></image>
+			<text class='text_2'>联系客服</text>
+		</view>
+	</view>
+</view>
